@@ -5,7 +5,11 @@ Connecting ultrasonic sensor by compounding Metro M4 Express board with I2C Shie
 <img width="371" alt="image" src="https://user-images.githubusercontent.com/40823576/179183335-e71ef158-c25d-4cd7-b65e-abf522e577d1.png">
 
 ## Uploading code in Arduino IDE Program (Ubuntu)
-1) In case of the error occured after clicked on upload as shown in the figure below. Fixing by opening Terminal and type command **bold**
+1) In case of the error occured after clicked on upload as shown in the figure below. Fixing by opening Terminal and type command **sudo chmod 777/dev/port name**. Next, uploading the code again.
+<img width="709" alt="image" src="https://user-images.githubusercontent.com/40823576/179187310-c13e86a4-b3a3-41a0-9873-a506625a7c62.png">
+
+
+2) 
 
 
 
