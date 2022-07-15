@@ -22,7 +22,9 @@ Connecting ultrasonic sensor by compounding Metro M4 Express board with I2C Shie
 3) Open new terminal window, enter command **rostopic list** to show variables that can be called. Command for calling variable is **rostopic echo/variable name** e.g. rostopic echo/ultrasonic2 to display readable distance from sensor2.
 <img width="842" alt="image" src="https://user-images.githubusercontent.com/40823576/179192849-ce7bf4a1-8346-4efe-82cd-0896f43bdfd3.png">
 
-4) 
+4) The screen shows the distance readable from Ultrasonic sensor as shown in below figure.
+<img width="482" alt="image" src="https://user-images.githubusercontent.com/40823576/179196751-34a30009-1e61-4366-bd40-78f421bc15cb.png">
+
 
 
 
