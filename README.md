@@ -1,5 +1,5 @@
 # Ultrasonic Sensor with SAMD51
-The code for controling ultrasonic sensor with metro m4 express uploaded in file name **ultrasonic sensor.**
+The code for controling ultrasonic sensor with Metro M4 Express uploaded in file name **ultrasonic sensor.**
 ## Circuit diagram for connecting 3 ultrasonic sensors with Metro M4 Express board
 Connecting ultrasonic sensor by compounding Metro M4 Express board with I2C Shield. Ultrasonic sensor conected with I2C Shield as shown in figure below. After that linked between the board and laptop by using USB wiring.
 
@@ -26,6 +26,7 @@ Connecting ultrasonic sensor by compounding Metro M4 Express board with I2C Shie
 <img width="482" alt="image" src="https://user-images.githubusercontent.com/40823576/179196751-34a30009-1e61-4366-bd40-78f421bc15cb.png">
 
 # IMU with SAMD51
+The code for controling IMU with Metro M4 Express uploaded in file name **icm20948_spi** for IMU and **icm20948_spi_mag** for IMU with magnetic.
 
 
 
