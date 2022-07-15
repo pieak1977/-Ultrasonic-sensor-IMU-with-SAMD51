@@ -25,6 +25,8 @@ Connecting ultrasonic sensor by compounding Metro M4 Express board with I2C Shie
 4) The screen shows the distance readable from Ultrasonic sensor as shown in below figure.
 <img width="482" alt="image" src="https://user-images.githubusercontent.com/40823576/179196751-34a30009-1e61-4366-bd40-78f421bc15cb.png">
 
+# IMU with SAMD51
+
 
 
 
