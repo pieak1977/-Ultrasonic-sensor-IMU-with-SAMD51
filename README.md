@@ -28,6 +28,13 @@ Connecting ultrasonic sensor by compounding Metro M4 Express board with I2C Shie
 # IMU with SAMD51
 The code for controling IMU with Metro M4 Express uploaded in file name **icm20948_spi** for IMU and **icm20948_spi_mag** for IMU with magnetic.
 
+## Connecting with ROS1
+After uploading the code, next step to connecting with ROS1. This example used PlatformIO instaed of Arduino IDE, but Arduino IDE can also work.
+1) Open terminal and enter command **roscore** as shown below
+![Screenshot (25)](https://user-images.githubusercontent.com/40823576/182123785-3dfadaad-c9e9-4e96-8e7c-3c9d460e6ed2.png)
+
+2) 
+
 
 
 
