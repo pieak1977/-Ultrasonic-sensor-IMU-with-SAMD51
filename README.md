@@ -36,10 +36,10 @@ After uploading the code, next step to connecting with ROS1. This example used P
 2) Enter command **rosrun rosserial_pythonserial_node.py/dev/port name**
 ![Screenshot (26)](https://user-images.githubusercontent.com/40823576/182124380-1b1baa44-8b2b-42c3-9657-85de629bddf8.png)
 
-3) Open new terminal, enter command **rostopic list** to show variables that can be called. Command for calling variable is **rostopic echo/variable name** e.g. rostopic echo/raw_imu to display readable velocity and acceleration in x,y,z-axis.
+3) Open new terminal, enter command **rostopic list** to show variables that can be called. Command for calling variable is **rostopic echo/variable name** e.g. rostopic echo/raw_imu to display readable velocity and acceleration in x, y, z-axis.
 ![Screenshot (29)](https://user-images.githubusercontent.com/40823576/182125202-27f1ad5d-450d-4142-9990-fe274c304f02.png)
 
-4) The screen shows readable velocity and acceleration in x,y,z-axis as shown in below figure.
+4) The screen shows readable velocity and acceleration in x, y, z-axis as shown in below figure.
 ![Screenshot (30)](https://user-images.githubusercontent.com/40823576/182125548-b45aef10-46bb-422d-8af4-8b0ae7bab2e0.png)
 
 
