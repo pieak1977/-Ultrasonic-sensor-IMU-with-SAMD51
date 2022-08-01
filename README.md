@@ -26,14 +26,23 @@ Connecting ultrasonic sensor by compounding Metro M4 Express board with I2C Shie
 <img width="482" alt="image" src="https://user-images.githubusercontent.com/40823576/179196751-34a30009-1e61-4366-bd40-78f421bc15cb.png">
 
 # IMU with SAMD51
-The code for controling IMU with Metro M4 Express uploaded in file name **icm20948_spi** for IMU and **icm20948_spi_mag** for IMU with magnetic.
+IMU consists of accelerometer for measuring acceleration and velocity, gyroscope for measuring rotational rate (angle). Some also incude magnetometer. The code for controling IMU with Metro M4 Express uploaded in file name **icm20948_spi** for IMU and **icm20948_spi_mag** for IMU with magnetic.
 
 ## Connecting with ROS1
 After uploading the code, next step to connecting with ROS1. This example used PlatformIO instaed of Arduino IDE, but Arduino IDE can also work.
 1) Open terminal and enter command **roscore** as shown below
 ![Screenshot (25)](https://user-images.githubusercontent.com/40823576/182123785-3dfadaad-c9e9-4e96-8e7c-3c9d460e6ed2.png)
 
-2) 
+2) Enter command **rosrun rosserial_pythonserial_node.py/dev/port name**
+![Screenshot (26)](https://user-images.githubusercontent.com/40823576/182124380-1b1baa44-8b2b-42c3-9657-85de629bddf8.png)
+
+3) Open new terminal, enter command **rostopic list** to show variables that can be called. Command for calling variable is **rostopic echo/variable name** e.g. rostopic echo/raw_imu to display readable velocity and acceleration in x,y,z-axis.
+![Screenshot (29)](https://user-images.githubusercontent.com/40823576/182125202-27f1ad5d-450d-4142-9990-fe274c304f02.png)
+
+4) The screen shows readable velocity and acceleration in x,y,z-axis as shown in below figure.
+![Screenshot (30)](https://user-images.githubusercontent.com/40823576/182125548-b45aef10-46bb-422d-8af4-8b0ae7bab2e0.png)
+
+
 
 
 
