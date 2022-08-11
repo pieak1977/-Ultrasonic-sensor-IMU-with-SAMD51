@@ -12,7 +12,7 @@ Connecting ultrasonic sensor by compounding Metro M4 Express board with I2C Shie
 2) After uploading complete, the text **Done Uploading** will show in box below.
 <img width="709" alt="image" src="https://user-images.githubusercontent.com/40823576/179187807-ef048d18-0290-435a-996d-4873b27ce5e0.png">
 
-## Connecting with ROS1
+## Connecting with ROS
 1) Open terminal and enter command **roscore** as shown below.
 <img width="629" alt="image" src="https://user-images.githubusercontent.com/40823576/179189281-d94679b1-59a4-4a89-960a-3ce63f6f4ca8.png">
 
